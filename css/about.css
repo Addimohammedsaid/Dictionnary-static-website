@@ -1,0 +1,19 @@
+.about {
+  color: white;
+}
+
+.about p {
+  max-width: 60%;
+  line-height: 24px;
+  margin: 30px auto;
+}
+
+@media only screen and (min-width : 768px) {
+  .about {
+    color: #171515;
+  }
+
+  .about p {
+    max-width: 45%;
+  }
+}
