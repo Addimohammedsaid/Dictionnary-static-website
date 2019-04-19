@@ -182,6 +182,7 @@ main {
   font-style: normal;
   font-weight: normal;
   line-height: normal;
+  font-size: 3.4em;
   color: white;
 }
 
@@ -238,11 +239,17 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   font-size: 10px;
   color: white;
+  width: 100%;
+}
+
+footer span {
+  position: absolute;
+  bottom: 10px;
+  color: black;
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (min-width : 768px) {
@@ -312,7 +319,7 @@ footer {
   .section-search input {
     height: 47px;
     width: 35%;
-    min-width: 350px;
+    min-width: 280px;
   }
 
   .section-search .btn {
