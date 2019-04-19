@@ -7,10 +7,6 @@ body {
   margin-top: 0;
 }
 
-.section-search input {
-  min-width: 303px;
-}
-
 .section-result {
   margin: 2em 10%;
 }
