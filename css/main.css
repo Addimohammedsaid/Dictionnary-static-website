@@ -16,6 +16,7 @@ a {
 .container {
   text-align: center;
   padding: .8em 1.2em;
+  width: 100%;
 }
 
 @keyframes load {
@@ -240,8 +241,8 @@ main {
 
 footer {
   font-size: 10px;
-  color: white;
   width: 100%;
+  grid-area: footer;
 }
 
 footer span {
